@@ -4,3 +4,5 @@
 我们细分年龄段，是父母育儿的好帮手
 我们融合国际化元素，将呜啦小镇带给全球
 我们用心为孩子创造一个轻松，快乐的童年，努力成为宝宝的成长的好伙伴
+![image](https://github.com/puffing/wulatown/blob/master/wula01.jpg)
+![image](https://github.com/puffing/wulatown/blob/master/wula02.jpg)
