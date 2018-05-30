@@ -1,0 +1,87 @@
+@charset "UTF-8";
+.ck-slide {
+	width: 700px;
+	height: 320px;
+	margin: 0 auto;
+}
+.ck-slide ul.ck-slide-wrapper {
+	height: 320px;
+}
+.img-slide {
+	border: 0;
+	width:773px;
+	height:367px;
+}
+.ck-slide ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.ck-slide {
+	width:773px;
+	height:367px;
+	position: relative;
+	overflow: hidden;
+}
+.ck-slide ul.ck-slide-wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	margin: 0;
+	padding: 0;
+}
+.ck-slide ul.ck-slide-wrapper li {
+	position: absolute; margin-top:0px;
+}
+.ck-slide ul.ck-slide-wrapper li a{
+	/*a标签是行内元素，宽高对a标签不起作用，这里必须添加line-height:0px;display:black，否则垂直滚动<li>之间会出现间隔*/
+	line-height:0px;
+	display:block;
+}
+.ck-slide .ck-prev, .ck-slide .ck-next {
+	position: absolute;
+	top: 50%;
+	z-index: 2;
+	width: 35px;
+	height: 70px;
+	margin-top: -35px;
+	border-radius: 3px;
+	opacity: .15;
+	background: red;
+	text-indent: -9999px;
+	background-repeat: no-repeat;
+	transition: opacity .2s linear 0s;
+}
+.ck-slidebox {
+	margin-left: 426px;
+	margin-top: 38px;
+	z-index: 30;
+}
+.ck-slidebox ul {
+	height: 20px;
+	padding: 0 4px;
+}
+.ck-slidebox ul li {
+	float: left;
+	height: 12px;
+	list-style: none;
+}
+.ck-slidebox ul li em {
+	margin: 0 6px;
+	display: block;
+	width: 10px;
+	height: 10px;
+	border-radius: 6px;
+	background-color: #c8c8c8;
+	text-indent: -9999px;
+	cursor: pointer;
+}
+.ck-slidebox ul li.current em {
+	background-color: #ffd53b;
+}
+.ck-slidebox ul li em:hover {
+	background-color: #ffd53b;
+}
+li{list-sytle:none}
+

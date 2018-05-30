@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/* CSS main */
+.main {
+	width:100%;
+}
+.div-banner {
+	width:100%;
+	height:480px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image:url(../imgs/about_banner.jpg);
+	position:relative;
+	text-align:center;
+}
+.div-main-about {
+	height: 595px;
+}
+.main hr {
+  	border: 0 none;
+	border-bottom:1px solid #f4f4f4;
+}
+.div-main-about-title-box {
+	text-align:left;
+	height:79px;
+}
+.div-main-about-title-box-t {
+	display:inline-block;
+	margin:32px 0px 24px 0;
+}
+.div-main-about-title-box-c {
+	display:inline-block;
+	margin:32px 0px 24px 8px;
+}
+.div-main-about-info-box {
+	margin-top:28px;
+	height:405px;
+}
+.div-main-about-info-box-list {
+	width: 476px;
+}
+.div-main-report {
+	height: 350px;
+	background-color:#f4f4f4;
+}
+.div-main-report-title {
+	position:relative;
+	font-size: 28px;
+	color: #646464;
+	top: 36px;
+}
+.div-main-report-item {
+	width: 180px;
+	height:180px;
+	font-size: 22px;
+	color: #ffffff;
+	border-radius: 50%;
+	margin-top: 72px;
+	cursor:pointer;
+}
+.div-main-report-item p{
+	margin: 60px 40px 50px 40px;
+}
+.div-main-report-item-1 {
+	margin-left: 59px;
+	background-color: #ffd81c;
+}
+.div-main-report-item-2 {
+	margin-left: 190px;
+	background-color: #ff662c;
+}
+.div-main-report-item-3 {
+	margin-left: 190px;
+	background-color: #00adde;
+}
+.div-main-contact {
+	height: 664px;
+}
+.div-main-contact-box {
+	margin-top:28px;
+}
+.div-main-contact-box-list {
+	padding-left: 477px;
+}
+.div-main-contact-box-list-item {
+	width: 100%;
+	height: 40px;
+}
+.div-main-contact-box-list img {
+	float:left;
+}
+.div-main-contact-box-list li {
+	margin-bottom: 18px;
+	list-style-type:none;
+}
+.div-main-contact-box-list div {
+	text-align:left;
+	padding-top: 10px;
+}

@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>呜啦小镇</title>
+<meta name="description" content="呜啦小镇">
+<meta name="keywords" content="呜啦,小镇,幼教,app">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="styles/main.css" rel="stylesheet" type="text/css">
+<link href="styles/index.css" rel="stylesheet" type="text/css">
+<link href="styles/slide.css" rel="stylesheet" type="text/css">
+<meta name="referrer" content="origin">
+<script src="jquery.min.js"></script>
+<script src="response.js"></script>
+</head>
+<body  style="overflow-x: hidden">
+	<div class="header container">
+		<div class="div-header-btnBox">
+			<div class="button-base button-header-1 button-selected"><a href="index.html">首页</a></div>
+			<div class="button-base"><a href="about.html">关于我们</a></div>
+			<div class="button-base"><a href="news.html">热点资讯</a></div>
+			<div class="button-base"><a href="join.html">加入我们</a></div>
+		</div>
+		<img class="img-header-logo" src="imgs/head_logo.png" alt="呜啦小镇">
+	</div>
+	<div class="clearfix" style="margin-bottom: 88px;"></div>
+	<div class="main container">
+		<div class="div-main-ship">
+			
+		</div>
+<!--t1-->
+		<div class="div-main-content">
+			<div class="div-main-content-box-base div-main-content-box-1">
+				<img src="imgs/content1_logo.png" alt="logo">
+				<p class="p-main-contect-box-intro">全体成员介绍</p>
+				<div class="div-main-content-box-item">
+					<div class="image-box"><img src="imgs/content1_img1.jpg" alt="小鼠亨利"></div>
+					
+					<div class="div-main-content-box-1-item-name">小鼠亨利</div>
+					<div class="div-main-content-box-1-item-intro" data-role="none">游戏魔术师就是我，机灵爱搞怪的我是你的游戏拍档</div>
+				</div>
+				<div class="div-main-content-box-item">
+					<div class="image-box"><img src="imgs/content1_img2.jpg" alt="北极熊胖达"></div>
+					<div class="div-main-content-box-1-item-name">北极熊比尔</div>
+					<div class="div-main-content-box-1-item-intro">我就是人形欢乐制造器啦<br>一起玩吧，Have fun！</div>
+				</div>
+				<div class="div-main-content-box-item">
+					<div class="image-box"><img src="imgs/content1_img3.jpg" alt="蘑菇头菇仔"></div>
+					<div class="div-main-content-box-1-item-name">蘑菇头菇仔</div>
+					<div class="div-main-content-box-1-item-intro">呆萌的蘑菇形怪物，但是在动画的世界里我可以保护你哦</div>
+				</div>
+				<div class="div-main-content-box-item">
+					<div class="image-box"><img src="imgs/content1_img4.jpg" alt="斑马祖巴"></div>
+					<div class="div-main-content-box-1-item-name">斑马祖玛</div>
+					<div class="div-main-content-box-1-item-intro">我就是爱音乐别叫我停下来<br>I'm rocker！</div>
+				</div>
+				<div class="div-main-content-box-item">
+					<div class="image-box"><img src="imgs/content1_img5.jpg" alt="小兔Rubby"></div>
+					<div class="div-main-content-box-1-item-name">小兔Rubby</div>
+					<div class="div-main-content-box-1-item-intro">绘本故事就由我来读给你听哦<br>一起来构建精神和多元智能</div>
+				</div>
+				<div class="div-main-content-box-item">
+					<div class="image-box"><img src="imgs/content1_img6.jpg" alt="小猴皮吉"></div>
+					<div class="div-main-content-box-1-item-name">小猪皮吉</div>
+					<div class="div-main-content-box-1-item-intro">讲故事的小能手就是我，嘟噜噜<br>有一天(很久很久以前)......</div>
+				</div>
+			</div>
+			<div class="div-main-content-box-base div-main-content-box-2">
+				<div class="ck-slide">
+					<ul class="ck-slide-wrapper">
+						<li><a href="javascript:"><img class="img-slide" src="imgs/content2_img01.jpg" alt="简介01"></a></li>
+						<li style="display:none"><a href="javascript:"><img class="img-slide" src="imgs/content2_img02.jpg" alt="简介02"></a></li>
+						<li style="display:none"><a href="javascript:"><img class="img-slide" src="imgs/content2_img03.jpg" alt="简介02"></a></li>
+						<li style="display:none"><a href="javascript:"><img class="img-slide" src="imgs/content2_img04.jpg" alt="简介02"></a></li>
+						<li style="display:none"><a href="javascript:"><img class="img-slide" src="imgs/content2_img05.jpg" alt="简介02"></a></li>
+						<li style="display:none"><a href="javascript:"><img class="img-slide" src="imgs/content2_img06.jpg" alt="简介02"></a></li>
+					</ul>
+				</div>
+				<div class="ck-slidebox">
+					<div class="slideWrap">
+						<ul class="dot-wrap">
+							<li class="current"><em>1</em></li>
+							<li><em>2</em></li>
+							<li><em>3</em></li>
+							<li><em>4</em></li>
+							<li><em>5</em></li>
+							<li><em>6</em></li>
+						</ul>
+					</div>
+				</div>
+				<script src="slide.js"></script>
+				<script>
+					$('.ck-slide').ckSlide({autoPlay: true,dir: 'x',interval:3000});
+				</script>
+				<div class="div-main-content-box-2-item-name">
+					宝宝与小镇成员之间的互动
+				</div>
+				<div class="div-main-content-box-2-item-intro">
+					让您的宝宝在小镇中找到新的小玩伴。这里有六种房间和房间守护者，每一个房间都是一种陪伴的方式，多重选择，更贴心、更全面。让宝宝更乐观、少烦恼、智力提升、进修能力、领略新事物的能力也提高。
+				</div>
+			</div>
+			<div class="div-main-content-bottom-background">
+				<div class="div-main-content-bottom">
+					<div class="div-main-content-bottom-1">
+						<div class="div-main-content-bottom-title">合作伙伴</div>
+						<div class="div-main-content-bottom-intro">
+							<!--<a href="http://www.leadgame.com.cn/">北京乐遨科技有限公司</a>｜-->
+							<a href="http://www.acfun.tv">广州弹幕科技有限公司</a>｜
+							<a href="http://www.blingstorm.com/">晶合思动科技有限公司</a>｜
+							<a href="http://www.163.com">网易</a>｜
+							<a href="http://www.sina.com.cn">新浪</a>｜
+							<a href="http://www.qq.com">腾讯</a>
+						</div>
+					</div>
+					<div class="div-main-content-bottom-2">
+						<div class="div-main-content-bottom-title">联系我们</div>
+						<div class="div-main-content-bottom-intro">欢迎各儿童媒体、网站、教育机构等与我们合作！<br>电话：010 - 57076448<br>邮箱：wulatown@shanhe.com</div>
+					</div>
+					<div class="div-main-content-bottom-3">
+						<img class="img-main-content-bottom-1" src="imgs/code.png" alt="二维码">
+						<p class="p-main-content-bottom-intro">微信号:wulatown</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer container">
+		<div class="div-footer-intro">
+			<a class="a-footer" href="JavaScript:">关于杉合</a> | 
+			<a class="a-footer" href="JavaScript:">About Shanhe</a> | 
+			<a class="a-footer" href="JavaScript:">服务协议</a> | 
+			<a class="a-footer" href="JavaScript:">隐私政策</a> | 
+			<a class="a-footer" href="JavaScript:">广告服务</a> | 
+			<a class="a-footer" href="join.html">杉合招聘</a> | 
+			<a class="a-footer" href="JavaScript:">杉合公益</a> | 
+			<a class="a-footer" href="JavaScript:">客服中心</a> | 
+			<a class="a-footer" href="JavaScript:">网站导航</a><br>
+			Copyright ©1998 - 2016 Shanhe. All Rights Reserved.<br>
+			备案许可证 : <a class="a-footer" href="http://www.miibeian.gov.cn" target="_blank">京ICP备15063888号-1</a><br>
+			杉合公司 版权所有
+		</div>
+	</div>
+</body>
+
+</html>

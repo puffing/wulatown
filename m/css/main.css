@@ -1,0 +1,99 @@
+@charset "UTF-8";
+p,li,ul,h3,h4{margin:0;padding:0;list-style-type:none;}
+/*去链接虚线框*/
+a{outline:none;}  
+a:active{noOutline:expression(this.onFocus=this.blur());}  
+a:focus{outline:0;}  
+.navwrap{
+	position:fixed;
+	top:0px;
+	width:100%;
+	-moz-box-shadow:1px 1px 2px 0px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow:1px 1px 2px 0px rgba(0, 0, 0, 0.1);
+	box-shadow:1px 1px 2px 0px rgba(0, 0, 0, 0.1);
+	background:rgba(255,255,255,0.95);
+	z-index:999
+}
+.mynavbar{
+    position: relative;
+	min-height: 50px;
+	margin:0 -15px;
+}
+.mynavbar-toggle{
+    position: relative;
+    float: right;
+    margin: 15px 8px 0 0;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+	}
+.mynavbar-toggle .collapseBtn{
+	width:21px;height:auto;
+}
+.navbar-title{
+	float: left;
+    height: 50px;
+    padding: 18px 15px 14px 12px;
+    font-size: 17px;
+    line-height: 18px;
+	color:#ffd62e;
+}
+.navbar-title:hover
+{ 
+color:#ffd62e;
+text-decoration: none;
+}
+.navbar-title span{
+	color:#898989;
+	font-size:15px;
+}
+.navbar-nav li a{
+	color:#646464
+}
+.bottom_line{
+	border-top:1px solid #e4e4e4;
+}
+.line7{
+	background:#ecedf1;
+	height:7px;
+	width:100%;
+}
+/*以下为页面底部公共样式*/
+.footer{
+	border-top:1px solid #e4e4e4;
+	padding:22px 0;
+}
+.footer p{
+	font-size:12px;
+	color:#a4a4a4;
+	text-align:center;
+}
+/*以下为子页面banner公共样式*/
+.div-main-join{
+	margin:50px -15px 0 -15px;
+}
+.div-main-join img{
+	width: 100%;
+	height: auto;
+}
+/*以下为子页面模块标题公共样式*/
+h3.about-title{
+	padding:0 12px;
+	border-bottom:1px solid #f2f2f2;
+	height:46px;
+	font-size:16px;
+	line-height: 46px;
+	color:#363636
+}
+h3.about-title span{
+	height:18px;
+	margin-right:9px;
+	display:block;
+}
+h3.about-title img{
+	margin-right:9px;
+	margin-bottom:2px;
+	height:100%;
+	width:auto;
+}
